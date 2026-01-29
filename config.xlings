@@ -9,7 +9,8 @@ xim = {
     mdbook = "0.4.43", -- for d2x book
     d2x = "0.2.0",
     xppcmds = {
-        "xmake project -k compile_commands"
+        -- avoid topdir xmake.lua
+        "xmake project --project=.  -k compile_commands"
     }
 }
 
