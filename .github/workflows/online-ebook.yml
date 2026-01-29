@@ -40,10 +40,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Install mdBook by Xlings
-        run: |
-          curl -fsSL https://d2learn.org/xlings-install.sh | bash
-          xlings install mdbook@${MDBOOK_VERSION} --global -y
+      #- name: Install mdBook by Xlings
+      #  run: |
+      #    curl -fsSL https://d2learn.org/xlings-install.sh | bash
+      #    xlings install mdbook@${MDBOOK_VERSION} --global -y
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v2
+        with:
+          mdbook-version: '0.4.43'
+
+      - run: mdbook build
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4

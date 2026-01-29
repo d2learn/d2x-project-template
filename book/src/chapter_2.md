@@ -1,4 +1,4 @@
-# 配置并添加内容
+# 项目配置和新内容添加
 
 本章节主要是介绍模板项目的基础结构, 以及如何基于模板进行配置和添加自己的内容
 
@@ -124,6 +124,8 @@ git-repository-url = "xxxx"
 - 第一步: 在`book/src`目录添加章节文件, 并填充内容
 - 第二步: 在`book/src/SUMMARY.md`添加这个文件的目录索引
 
+> 注: 更多配置细节参考 - [mdbook文档](https://rust-lang.github.io/mdBook)
+
 ## 三、Code: 添加新的练习代码
 
 项目的练习代码集中放在了`dslings`目录中, 每当用户运行`d2x checker`命令时, 就会自动加载这些练习代码到一个检测队列中, 并跳转到当前第一个检测不同的练习代码, 等待用户去修改和完整.
@@ -238,6 +240,6 @@ d2x工具在练习代码检测过程中, 提供了一个AI智能助手的功能.
 
 ### 配置在线电子书
 
-模板项目默认提供了Github Pages的自动部署功能
+模板项目默认提供了Github Pages的自动部署功能, 只需要打开开启一下即可
 
 具体步骤: `仓库的Setting -> Pages -> Build and deployment -> Source -> Github Actions`
