@@ -43,10 +43,10 @@ TODO...
 
 ### 创建项目
 
-通过`d2x create xxx`命令创建一个新项目
+通过`d2x new xxx`命令创建一个新项目
 
 ```
-d2x create d2hello
+d2x new d2hello
 ```
 
 命令运行后会生成一个叫`d2hello`的目录, 进入/打开这个目录就能看到项目的基础结构
