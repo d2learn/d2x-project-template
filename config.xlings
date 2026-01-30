@@ -5,9 +5,9 @@ xname = "d2x-project-template" -- project name
 -- xim-deps
 xim = {
     vscode = "", -- config by checker.editor
-    cpp = "", -- language：[windows:mingw], [linux:gcc], [macos:clang]
+    gcc = "15.1", -- language：[windows:mingw], [linux:gcc], [macos:clang]
     mdbook = "0.4.43", -- for d2x book
-    d2x = "0.2.0",
+    d2x = "0.1.1",
     xppcmds = {
         -- avoid topdir xmake.lua
         "xmake project --project=.  -k compile_commands"
