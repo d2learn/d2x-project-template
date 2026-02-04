@@ -28,8 +28,8 @@ d2x类项目是一种强调交互的教程类项目, 他通常由 `[Book + Video
 ├── config.xlings
 ├── d2x
 ├── dslings                ////// Code: 项目练习代码目录
-│   ├── hello-mcpp.cpp       // 具体的练习代码
-│   ├── helloworld.cpp       
+│   ├── hellomcpp.cpp        // 具体的练习代码
+│   ├── hellocpp.cpp       
 │   └── xmake.lua            // 练习代码编排和配置文件
 ├── LICENSE
 ├── README.md
@@ -148,20 +148,19 @@ d2x checker
 根据控制台报错, 修复代码并观察控制台的变化. 下面是控制台的信息解释
 
 ```
-🌏Progress: [>----------] 0/10 -->> 显示当前的练习进度
+ 🌏 ▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0/2  -->> 显示当前的练习进度
+                                                                                                                               
+ ✗ hellocpp                 -->> 当前显示检测状态和练习名
+ + → dslings/hellocpp.cpp   -->> 当前练习的文件路径
+                                                                                                                               
+ [ 23%]: cache compiling.release dslings/hellocpp.cpp -->> 显示编译状态
+ error: dslings/hellocpp.cpp:29:39: error: found ':' in nested-name-specifier, expected '::'
+    29 |     std::cout << "hello, mcpp!" << std:endl; // 0.修复这个编译错误
+       |                                       ^
+       |                                       ::
+   ▼ 5 more lines below...
 
-[Target: 00-0-hello-mcpp] - normal -->> 当前的练习名
-
-❌ Error: Compilation/Running failed for dslings/hello-mcpp.cpp -->> 显示检测状态
-
- The code exist some error!
-
----------C-Output--------- - 编译器输出信息
-[HONLY LOGW]: main: dslings/hello-mcpp.cpp:24 - ❌ | a == 1.1 (1 == 1.100000) -->> 错误提示及位置(24行)
-[HONLY LOGW]: main: dslings/hello-mcpp.cpp:26 - 🥳 Delete the D2X_WAIT to continue...
-
-
-AI: xxx -->> AI提示(需要配置大模型的key, 可不使用)
+🤖:   AI Disabled / 未启用 - https://github.com/d2learn/d2x  -->> 显示AI状态/信息(需要配置大模型的key, 可不使用)
 ```
 
 > 注: 退出检测程序使用`ctrl + c`
@@ -176,7 +175,7 @@ AI: xxx -->> AI提示(需要配置大模型的key, 可不使用)
 在`dslings`目录创建`0-test.cpp`文件, 并添加如下内容
 
 ```cpp
-#include <d2x/cpp/common.hpp> // 辅助工具
+#include <d2x/cpp/d2x.hpp> // 辅助工具
 
 #include <iosteam> // 故意写错测试 编译期检查
 
@@ -185,7 +184,8 @@ int main() {
 
     int a = 1;
     int b = 2;
-    d2x_assert_eq(a, b); // 测试运行时检查
+
+    d2x::assert_eq(a, b); // 测试运行时检查
 }
 ```
 
@@ -209,10 +209,10 @@ target("0-test")
 由d2x工具支持的自动化代码练习项目, 通过在项目根目录下
 执行 d2x checker 进入"编译器驱动开发模式"的练习代码自动检测.
 需要用户根据控制台的报错和提示信息, 修改代码中的错误. 当修复所有编译错误和
-运行时检查点后, 你可以删除或注释掉代码中的 D2X_WAIT 宏, 会自动进入下一个练习.
-  - D2X_WAIT: 该宏用于隔离不同练习, 你可以删除或注释掉该宏, 进入下一个练习.
-  - d2x_assert_eq: 该宏用于运行时检查点, 你需要修复代码中的错误, 使得所有
-  - D2X_YOUR_ANSWER: 该宏用于提示你需要修改的代码, 一般用于代码填空(即用正确的代码替换这个宏)
+运行时检查点后, 你可以删除或注释掉代码中的 d2x::wait(), 会自动进入下一个练习.
+  - d2x::wait(): 用于隔离不同练习, 你可以删除或注释掉, 进入下一个练习.
+  - d2x::assert_eq: 用于运行时检查点, 你需要修复代码中的错误, 使得所有
+  - D2X_YOUR_ANSWER: 用于提示你需要修改的代码, 一般用于代码填空(即用正确的代码替换他)
 
 ## 其他功能 (可选)
 
