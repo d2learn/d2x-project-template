@@ -20,7 +20,7 @@
 
 ## 快速开始
 
-- 第一步: 点击 [新建教程模板](https://github.com/new?template_name=d2x-project-template&template_owner=d2learn) 按钮, 通过模块仓库创建新教程的项目仓库
+- 第一步: 点击 [新建教程模板](https://github.com/new?template_name=d2x-project-template&template_owner=d2learn) 按钮, 通过模板仓库创建新教程项目
 - 第二步: 克隆新仓库到本地 - `git clone git@github.com:your_name/your_repo_name.git`
 - 第三步:
   - [安装d2x工具](https://d2learn.github.io/d2x-project-template/chapter_1.html)

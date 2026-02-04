@@ -45,7 +45,7 @@ TODO...
 
 **通过模块创建(推荐)**
 
-点击 [新建教程模板](https://github.com/new?template_name=d2x-project-template&template_owner=d2learn) 按钮, 通过模块仓库创建新教程的项目仓库. 然后, 再把生成的仓库clone到本地
+点击 [新建教程模板](https://github.com/new?template_name=d2x-project-template&template_owner=d2learn) 按钮, 通过模板仓库创建新教程项目. 然后, 再把生成的仓库clone到本地
 
 ```bash
 git clone git@github.com:your_name/your_repo_name.git
