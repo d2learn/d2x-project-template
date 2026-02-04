@@ -1,9 +1,9 @@
-target("hello-mcpp")
-    set_languages("c++23")
-    add_files("hello-mcpp.cpp")
-    add_files("../d2x/mcpp/common.cppm")
-
-target("helloworld")
-    add_files("helloworld.cpp")
+target("hellocpp")
+    add_files("hellocpp.cpp")
 
 
+-- for mcpp
+
+target("hellomcpp")
+    add_files("../d2x/mcpp/d2x.cppm")
+    add_files("hellomcpp.cpp")
