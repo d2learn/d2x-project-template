@@ -6,7 +6,7 @@
 [中文]: ../chapter_2.html
 [English]: ./chapter_2.html
 
-# Project Configuration and Adding New Content
+# Project Configuration and New Content
 
 This chapter mainly introduces the basic structure of the template project, and how to configure and add your own content based on the template.
 

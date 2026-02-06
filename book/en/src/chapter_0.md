@@ -16,7 +16,7 @@
 
 | [d2x Tool](https://github.com/d2learn/d2x) - [Forum](https://forum.d2learn.org) |
 | --- |
-| [Documentation](https://d2learn.github.io/d2x-project-template/en) -> [Tools and Environment Configuration](https://d2learn.github.io/d2x-project-template/en/chapter_1.html) -> [Project Configuration and Adding New Content](https://d2learn.github.io/d2x-project-template/en/chapter_2.html) |
+| [Documentation](https://d2learn.github.io/d2x-project-template/en) -> [Tools and Environment](https://d2learn.github.io/d2x-project-template/en/chapter_1.html) -> [Project Configuration and New Content](https://d2learn.github.io/d2x-project-template/en/chapter_2.html) |
 
 This project provides a basic structure for an **interactive tutorial project** that can be recognized and loaded by the [d2x](https://github.com/d2learn/d2x) tool. Developers and tutorial creators can design and develop their own interactive tutorial projects based on this template.
 
