@@ -1,12 +1,12 @@
 [book]
 authors = ["sunrisepeak"]
-language = "zh"
+language = "en"
 multilingual = false
 src = "src"
 title = "D2X Project Template | D2X项目模板"
 
 [build]
-build-dir = "book"
+build-dir = "../book/en"
 
 [output.html]
 git-repository-url = "https://github.com/d2learn/d2x-project-template"

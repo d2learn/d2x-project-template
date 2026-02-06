@@ -8,6 +8,7 @@
 xxx d2x-buildtools [command] [target]
 
 Commands:
+    init        init project
     list        List all targets
     build       Build specified target
     run         Run specified target

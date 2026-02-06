@@ -1,11 +1,3 @@
-<div align=right>
-
-  🌎 [中文] | [English]
-</div>
-
-[中文]: ./chapter_0.html
-[English]: ../en/chapter_0.html
-
 # d2x-project-template
 
 > d2x交互式教程项目模板 - `Book + Video + Code + X`
@@ -17,6 +9,7 @@
 | [d2x工具](https://github.com/d2learn/d2x) - [论坛](https://forum.d2learn.org) |
 | --- |
 | [文档](https://d2learn.github.io/d2x-project-template) -> [工具和环境配置](https://d2learn.github.io/d2x-project-template/chapter_1.html) -> [项目和新内容添加](https://d2learn.github.io/d2x-project-template/chapter_2.html) |
+| [中文](README.zh.md) - [English](README.md) |
 
 该项目提供了一个, 可以被[d2x](https://github.com/d2learn/d2x)工具识别和加载的**交互式教程项目**的基础结构. 开发者和教程创作者, 可以基于这个模板来设计开发自己的交互式教程项目
 
@@ -25,6 +18,14 @@
 - 提供了基础的 `Book + Video + Code + X` 结构
 - d2x工具可以直接识别和加载
 - 提供了项目依赖描述, 支持一键配置环境
+
+## 快速开始
+
+- 第一步: 点击 [新建教程模板](https://github.com/new?template_name=d2x-project-template&template_owner=d2learn) 按钮, 通过模板仓库创建新教程项目
+- 第二步: 克隆新仓库到本地 - `git clone git@github.com:your_name/your_repo_name.git`
+- 第三步:
+  - [安装d2x工具](https://d2learn.github.io/d2x-project-template/chapter_1.html)
+  - [认识项目结构并配置](https://d2learn.github.io/d2x-project-template/chapter_2.html)
 
 ## 具体项目案例
 
