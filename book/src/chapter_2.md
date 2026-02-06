@@ -1,3 +1,11 @@
+<div align=right>
+
+  🌎 [中文] | [English]
+</div>
+
+[中文]: ./chapter_2.html
+[English]: ../en/chapter_2.html
+
 # 项目配置和新内容添加
 
 本章节主要是介绍模板项目的基础结构, 以及如何基于模板进行配置和添加自己的内容

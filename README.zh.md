@@ -1,11 +1,3 @@
-<div align=right>
-
-  🌎 [中文] | [English]
-</div>
-
-[中文]: ./chapter_0.html
-[English]: ../en/chapter_0.html
-
 # d2x-project-template
 
 > d2x交互式教程项目模板 - `Book + Video + Code + X`
@@ -14,7 +6,7 @@
 [![online-ebook](https://img.shields.io/badge/online-ebook-orange.svg)](https://github.com/d2learn/d2x)
 [![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](LICENSE-CODE)
 
-| [d2x工具](https://github.com/d2learn/d2x) - [论坛](https://forum.d2learn.org) |
+| [d2x工具](https://github.com/d2learn/d2x) - [论坛](https://forum.d2learn.org) / [中文](README.zh.md) - [English](README.md) |
 | --- |
 | [文档](https://d2learn.github.io/d2x-project-template) -> [工具和环境配置](https://d2learn.github.io/d2x-project-template/chapter_1.html) -> [项目和新内容添加](https://d2learn.github.io/d2x-project-template/chapter_2.html) |
 
@@ -25,6 +17,14 @@
 - 提供了基础的 `Book + Video + Code + X` 结构
 - d2x工具可以直接识别和加载
 - 提供了项目依赖描述, 支持一键配置环境
+
+## 快速开始
+
+- 第一步: 点击 [新建教程模板](https://github.com/new?template_name=d2x-project-template&template_owner=d2learn) 按钮, 通过模板仓库创建新教程项目
+- 第二步: 克隆新仓库到本地 - `git clone git@github.com:your_name/your_repo_name.git`
+- 第三步:
+  - [安装d2x工具](https://d2learn.github.io/d2x-project-template/chapter_1.html)
+  - [认识项目结构并配置](https://d2learn.github.io/d2x-project-template/chapter_2.html)
 
 ## 具体项目案例
 
