@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# srcirpt dir
+# script dir
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
 echo "[Top] - Building Chinese book..."
