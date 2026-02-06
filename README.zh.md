@@ -6,10 +6,9 @@
 [![online-ebook](https://img.shields.io/badge/online-ebook-orange.svg)](https://github.com/d2learn/d2x)
 [![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](LICENSE-CODE)
 
-| [d2x工具](https://github.com/d2learn/d2x) - [论坛](https://forum.d2learn.org) |
+| [d2x工具](https://github.com/d2learn/d2x) - [论坛](https://forum.d2learn.org) / [中文](README.zh.md) - [English](README.md) |
 | --- |
 | [文档](https://d2learn.github.io/d2x-project-template) -> [工具和环境配置](https://d2learn.github.io/d2x-project-template/chapter_1.html) -> [项目和新内容添加](https://d2learn.github.io/d2x-project-template/chapter_2.html) |
-| [中文](README.zh.md) - [English](README.md) |
 
 该项目提供了一个, 可以被[d2x](https://github.com/d2learn/d2x)工具识别和加载的**交互式教程项目**的基础结构. 开发者和教程创作者, 可以基于这个模板来设计开发自己的交互式教程项目
 
