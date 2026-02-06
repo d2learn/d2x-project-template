@@ -7,8 +7,8 @@ add_includedirs(".")
 add_plugindirs("d2x/buildtools")
 
 option("lang")
-    set_default("en")
-    set_description("Language: en or zh")
+    set_default("zh")
+    set_description("Language: zh or en")
 
 local lang = get_config("lang")
 
