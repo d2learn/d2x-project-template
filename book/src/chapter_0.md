@@ -4,7 +4,7 @@
 </div>
 
 [中文]: ./chapter_0.html
-[English]: ../en/chapter_0.html
+[English]: ./en/src/chapter_0.html
 
 # d2x-project-template
 

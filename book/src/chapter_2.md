@@ -4,7 +4,7 @@
 </div>
 
 [中文]: ./chapter_2.html
-[English]: ../en/chapter_2.html
+[English]: ./en/src/chapter_2.html
 
 # 项目配置和新内容添加
 

@@ -4,7 +4,7 @@
 </div>
 
 [中文]: ./chapter_1.html
-[English]: ../en/chapter_1.html
+[English]: ./en/src/chapter_1.html
 
 # 工具安装与环境配置
 
