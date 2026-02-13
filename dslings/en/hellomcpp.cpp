@@ -12,7 +12,7 @@
 //    comment out the d2x::wait() in the code to automatically proceed to the next exercise.
 //
 //      - d2x::wait: This function is used to separate different exercises. You can delete or comment
-//        out this function to proceed to the next exercise.
+//        out this function call to proceed to the next exercise.
 //      - d2x::assert_eq: This function is used for runtime checkpoints. You need to fix the code
 //        errors to pass all checkpoints.
 //      - D2X_YOUR_ANSWER: This macro is used to prompt you to modify the code, generally for code

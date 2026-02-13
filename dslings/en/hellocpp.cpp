@@ -9,10 +9,10 @@
 //    in the project root directory to enter "compiler-driven development mode" for automatic
 //    practice code detection. You need to modify code errors based on console error messages
 //    and hints. After fixing all compilation errors and runtime checkpoints, you can delete or
-//    comment out the d2x::wait() function in the code to automatically proceed to the next exercise.
+//    comment out the d2x::wait() function call in the code to automatically proceed to the next exercise.
 //
 //      - d2x::wait: This function is used to separate different exercises. You can delete or comment
-//        out this function to proceed to the next exercise.
+//        out this function call to proceed to the next exercise.
 //      - d2x::assert_eq: This function is used for runtime checkpoints. You need to fix the code
 //        errors to pass all checkpoints.
 //      - D2X_YOUR_ANSWER: This macro is used to prompt you to modify the code, generally for code
