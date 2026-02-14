@@ -15,8 +15,8 @@
 //        out this function call to proceed to the next exercise.
 //      - d2x::assert_eq: This function is used for runtime checkpoints. You need to fix the code
 //        errors to pass all checkpoints.
-//      - D2X_YOUR_ANSWER: This macro is used to prompt you to modify the code, generally for code
-//        completion (replace this macro with the correct code).
+//      - D2X_YOUR_ANSWER: This identifier is used to prompt you to modify the code, generally for code
+//        completion (replace this identifier with the correct code).
 //
 // Auto-Checker Command:
 //
